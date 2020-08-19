@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+ {%extends 'testapp/resume.html'%}
+{%load static%}
+{% block link_block %}
+ <link rel="stylesheet" href="{% static "css/1.css"%}">
+{%endblock%}
+{% block child_block%}
+<style media="screen">
+  body {
+   background: #585c68;
+   font-size: 14px;
+   line-height: 22px;
+   color: #555555;
+  }
+</style>
+<div style="text-align:center; padding-bottom:5%;">
+<a href="/edit1" class="btn btn-danger">Use this template</a>
+</div>
+{%endblock%}

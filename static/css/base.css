@@ -1,0 +1,130 @@
+.nb{
+  font-weight: bolder;
+  font-size: 1.2rem;
+  background: #38bcca;
+
+}
+.bt{
+  font-weight: bold;
+}
+#img{
+  width: 100%;
+  height: auto;
+}
+#im{
+  float: left;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+#rm{
+  font-family: 'Lobster Two', cursive;
+}
+#eo{
+font-family: 'Ranchers', cursive;
+}
+#pa{
+font-family: 'Slabo 27px', serif;
+font-size: 1.3rem;
+}
+.by{
+  background: red;
+  font-size: 1.2rem;
+
+}
+.gd{
+  padding-top: 2%;
+}
+/* #img:hover{
+  opacity: 0.3;
+} */
+/* .nb a{
+  color:white;
+} */
+.des{
+  text-align: center;
+}
+#step{
+  color:red;
+  font-family: 'Lobster Two', cursive;
+}
+.btd{
+  text-align: center;
+}
+#tr{
+  font-family: 'Slabo 27px', serif;
+}
+.rt{
+  text-align: center;
+}
+#rt{
+  text-decoration: underline;
+}
+#ra{
+  font-family: 'Slabo 27px', serif;
+}
+/* .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+} */
+#res{
+  height: 400px;
+  width: 300px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.image:hover #res {
+  opacity: 0.3;
+  transform: scale(1.05);
+}
+
+.image:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  /* background-color: #4CAF50; */
+  color: white;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+.middle a{
+  color: white;
+}
+.about h1{
+  text-align: center;
+}
+#ab{
+  float: right;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+#ic{
+  height:35px;
+  width:35px;
+}
+#para{
+  font-family: 'Oswald', sans-serif;
+}
+#ac{
+  font-family: 'Satisfy', cursive;
+  padding-top: 5%;
+  text-overflow: clip;
+  text-shadow: 1px 1px black;
+}
