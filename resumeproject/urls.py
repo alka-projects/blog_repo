@@ -20,6 +20,6 @@ from testapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
-    path('1/', views.one),
-    path('edit1/', views.edit1),
+    path('simpleresume/', views.show_resume),
+    path('resumeform/', views.resumeform_view),
 ]

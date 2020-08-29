@@ -16,7 +16,7 @@ class resume(models.Model):
     contact_no=models.IntegerField()
     # programming_languages=models.CharField(max_length=500)
 class personal_info(models.Model):
-   permanent_Address=models.CharField(max_length=256)
+   permanent_Address=models.TextField()
    DOB=models.DateField()
    Hobbies=models.CharField(max_length=256)
    Languages=models.CharField(max_length=256)
